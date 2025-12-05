@@ -10,7 +10,7 @@ DB_CONFIG = {
     "password": "12345678",
     "database": "gestion_de_ventas",
     "autocommit": False
-}
+} # cada persona debe establecer la contraseña de su usuario de Workbench o la base de datos en particular.
 
 #me conecto a la base de datos
 def get_connection(create_db_if_missing=True):
